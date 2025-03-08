@@ -1,0 +1,78 @@
+update_delay: 500
+timeout: 500
+sections:
+  # 物品展示槽位列表
+  slots: [10,11,12,13,14,15,16,19,20,21,22,23,24,25,28,29,30,31,32,33,34,37,38,39,40,41,42,43]
+  # 快速加入按钮位置
+  quick_join_slot: 4
+  # 显示全部按钮位置
+  show_all_slot: 49
+  # 返回按钮位置
+  back_slot: 4
+# 语言设置
+Language: zh_CN
+icons:
+  joinable:
+    name: "§a%name%"
+    type: "WOOL"
+    damage: 5
+    lore: |-
+      §a已有玩家: %player%
+      §e统计:
+      %motd%
+
+      §e§l点击加入
+    shiny: false
+  spectateble:
+    name: "§6%name%"
+    type: "WOOL"
+    damage: 1
+    lore: |-
+      §a当前玩家: %player%
+      §e统计:
+      %motd%
+
+      §e§l点击观战
+    shiny: false
+  unjoinable:
+    name: "§c%name%"
+    type: "WOOL"
+    damage: 14
+    lore: |-
+      §a当前玩家: %player%
+      §e统计:
+      %motd%
+    shiny: false
+  closed:
+    name: "§c%name%"
+    type: "OBSIDIAN"
+    damage: 0
+    lore: |-
+      §c已关闭或者维护
+    shiny: false
+  show_all:
+    name: "§6Show All"
+    type: "ENDER_PEARL"
+    damage: 0
+    lore: ""
+    shiny: false
+  fast_join:
+    name: "§aQuick join"
+    type: "REDSTONE_TORCH_ON"
+    damage: 0
+    lore: ""
+    shiny: false
+  back:
+    name: "§eBack"
+    type: "BED"
+    damage: 0
+    lore: ""
+    shiny: false
+# 菜单装饰板
+decorations:
+  "1":
+    slot: 10
+    type: "STAINED_GLASS_PANE"
+    name: "qwq"
+    lore: ""
+    shiny: false

@@ -1,0 +1,34 @@
+none_server: "§cNo server is currently available, please try again later."
+null_category: "§cNo server of given type exists, please check and try again"
+cant_join: "&cThis server is currently not available to join"
+server_full: "&cThe server is full and cannot be joined"
+list: "§eFollowing Categories:"
+no_permission: "§cSorry, but you don't have permission to use that."
+reload: "§aReloaded the config file."
+not_this_version: "§cThis server is not the version you are in, please switch to version %version% and try again"
+already_quick: "§cQick join is ready"
+time:
+  1:
+    title: "Match Found."
+    sub_title: "Please Wait."
+    sound: "NOTE_PLING|3|3"
+  2:
+    title: "Match Found.."
+    sub_title: "Please Wait."
+    sound: "NOTE_PLING|3|3"
+  3:
+    title: "Match Found..."
+    sub_title: "Please Wait."
+    sound: "NOTE_PLING|3|3"
+  4:
+    title: "Match Found."
+    sub_title: "Please Wait."
+    sound: "NOTE_PLING|3|3"
+  5:
+    title: "Match Found."
+    sub_title: "Please Wait."
+    sound: "NOTE_PLING|3|3"
+  6:
+    title: "Match Found."
+    sub_title: "Please Wait."
+    sound: "LEVEL_UP|6|6"

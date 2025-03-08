@@ -1,0 +1,35 @@
+categories:
+  # 设置一个分类名字方便打开GUI
+  core:
+    #设置
+    settings:
+      # 显示在GUI的名字
+      displayName: "Example Server"
+      # 得在这个范围的客户端id才能玩！详细见发客户端包ID的文档
+      version: ">=763"
+      # 是否开启匹配机制谁谁能匹配到一局中
+      enable: false
+      # 一旦开启必须填写KD变量并且是dounble值的kd
+      kdPapi: "%game_kd%"
+      # 相差多少可以匹配到一局
+      difference: 0.2
+    # 服务器可以加入的MOTD
+    # 支持正则表达式
+    joinable:
+      - |-
+        State: [1-2]
+        Map: .*
+    # 服务器可以观察的MOTD
+    # 支持正则表达式
+    # 空表示服务器不能观察
+    spectatable:
+      - |-
+        State: [3-5]
+        Map: .*
+    servers:
+      # BungeeCord中的服务器名称
+      s1:
+        # 服务器的IP
+        ip: "127.0.0.1:25566"
+        # 服务器的显示名称
+        name: "服务器1"

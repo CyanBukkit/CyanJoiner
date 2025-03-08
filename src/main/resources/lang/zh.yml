@@ -1,0 +1,34 @@
+none_server: "§c当前无可用服务器,请稍后重试."
+null_category: "§c不存在该种类服务器,请检查后重试"
+cant_join: "&c该服务器当前不可加入"
+server_full: "&c该服务器已满人,不可加入"
+list: "§e所有类型:"
+no_permission: "§c抱歉,但您没有权限执行该指令"
+reload: "§a重载配置文件成功"
+not_this_version: "§c该服务器不是您所在的版本,请切换版本%version%后重试"
+already_quick: "§c正在匹配中请稍后"
+time:
+  1:
+    title: "§a匹配中."
+    sub_title: "§e请稍后"
+    sound: "NOTE_PLING|3|3"
+  2:
+    title: "§a匹配中.."
+    sub_title: "§e请稍后"
+    sound: "NOTE_PLING|3|3"
+  3:
+    title: "§a匹配中..."
+    sub_title: "§e请稍后"
+    sound: "NOTE_PLING|3|3"
+  4:
+    title: "§a匹配中."
+    sub_title: "§e请稍后"
+    sound: "NOTE_PLING|3|3"
+  5:
+    title: "§a匹配中."
+    sub_title: "§e请稍后"
+    sound: "NOTE_PLING|3|3"
+  6:
+    title: "§a匹配中."
+    sub_title: "§e请稍后"
+    sound: "LEVEL_UP|6|6"
